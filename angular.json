@@ -30,8 +30,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
-            ],
+              
+                "src/styles.scss",
+                "node_modules/font-awesome/css/font-awesome.min.css"
+              ],
+              
             "scripts": []
           },
           "configurations": {
@@ -100,5 +103,11 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "997b865e-e5ed-4539-aaa2-eddc9f33c868"
   }
+
+  
 }
+

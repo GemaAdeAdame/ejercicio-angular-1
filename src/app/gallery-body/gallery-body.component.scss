@@ -1,0 +1,22 @@
+.body__image {
+  width: 20%;
+  height: 20%;
+  padding: 10px;
+}
+
+.gallery__photos {
+  display: flex;
+  justify-content: center;
+  animation: fadeInTitle 2s ease-in;
+}
+
+@keyframes fadeInTitle {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

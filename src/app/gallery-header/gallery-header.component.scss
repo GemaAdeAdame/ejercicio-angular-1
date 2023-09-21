@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuggles&family=Raleway:wght@200&display=swap");
+
+header {
+  
+  .header__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #12c9b7;
+  }
+
+  .header__title {
+    color: black;
+    text-align: center;
+    font-family: Fuggles;
+    font-size: 60px;
+  }
+
+  .header__nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-size: 20px;
+  }
+
+  .header__nav li {
+    margin-left: 20px;
+  }
+
+  .header__nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+  }
+
+  .header__logo {
+    width: 15%;
+    height: auto;
+  }
+}
+
